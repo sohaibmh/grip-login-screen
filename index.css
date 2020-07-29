@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+.loginScreen {
+  height: 100%;
+  width: 8600px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginScreen .logo {
+  background-color: white;
+  height: 100%;
+  width: 4305px;
+  margin: 0, auto;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.loginScreen .description {
+  background-color: #f9f9f9;
+  height: 100%;
+  width: 4300px;
+  margin: 0, auto;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(50%, 0%);
+}
+
+#gripLogo {
+  position: absolute;
+  top: 55%;
+  left: 42%;
+  width: 30%;
+  height: 30%;
+  transform: translate(-100%, -100%);
+}
+
+#gripLogo path:nth-child(1) {
+  stroke-dasharray: 1628.1068;
+  stroke-dashoffset: 1628.1068;
+  animation: line-anim 2s ease forwards;
+}
+
+#gripLogo path:nth-child(2) {
+  stroke-dasharray: 364.3417;
+  stroke-dashoffset: 364.3417;
+  animation: line-anim 2s ease forwards 0.3s;
+}
+
+#gripLogo path:nth-child(3) {
+  stroke-dasharray: 364.342;
+  stroke-dashoffset: 364.342;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+
+#gripLogo path:nth-child(4) {
+  stroke-dasharray: 2773.7485;
+  stroke-dashoffset: 2773.7485;
+  animation: line-anim 2s ease forwards 0.9s;
+}
+
+#gripLogo path:nth-child(5) {
+  stroke-dasharray: 3468.5346;
+  stroke-dashoffset: 3468.5346;
+  animation: line-anim 2s ease forwards 0.12s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#gripText {
+  color: #4b2bcf;
+  font-size: 300px;
+  font-weight: 800;
+  position: absolute;
+  top: 32%;
+  left: 48.5%;
+  transform: scale(1.2, 1.2);
+}
+
+#virtualText {
+  color: #ff8118;
+  font-size: 300px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 47%;
+}
+
+#welcomeMessage {
+  color: gray;
+  font-size: 100px;
+  position: absolute;
+  top: 55%;
+  left: 22%;
+}
+
+.loginButton {
+  font-size: 100px;
+  color: white;
+  background-color: #ff8118;
+  position: absolute;
+  top: 60%;
+  left: 22%;
+  width: 60%;
+  height: 6%;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+}
+
+.loginButton:hover {
+  background-color: #4b2bcf;
+}
+
+.loginButton span {
+  text-align: right;
+}
+
+#loginButtonSign {
+  float: right;
+}
+
+.loginButton:focus {
+  outline: 0;
+}
+
+.form-popup {
+  display: none;
+  position: absolute;
+  top: 67%;
+  left: 22%;
+  width: 60%;
+  height: 10%;
+}
+
+.form-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-size: 70px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  padding: 30px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  width: 100%;
+  height: 50%;
+  font-size: 70px;
+  border-radius: 30px;
+}
+
+#macbook {
+  height: 43%;
+  width: 3700px;
+  margin: 0, auto;
+  position: absolute;
+  left: 7%;
+  top: 15%;
+}
+
+#message-1 {
+  font-size: 154px;
+  text-align: center;
+  color: #403d4c;
+  font-weight: bold;
+  padding: 150px;
+  position: absolute;
+  top: 55%;
+  line-height: 5vh;
+}
+
+#message-2 {
+  font-size: 100px;
+  text-align: center;
+  color: #59566b;
+  padding: 450px;
+  position: absolute;
+  top: 65%;
+  line-height: 3vh;
+}
+
+#message-3 {
+  font-size: 100px;
+  text-align: right;
+  color: #403d4c;
+  padding: 50px;
+  position: absolute;
+  left: 58%;
+  top: 94%;
+  line-height: 3vh;
+}
