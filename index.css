@@ -11,7 +11,7 @@ body {
 }
 
 .loginScreen {
-  height: 800px;
+  height: 900px;
   width: 1600px;
   position: relative;
   left: 50%;
@@ -120,7 +120,7 @@ body {
   top: 60%;
   left: 22%;
   width: 60%;
-  height: 8%;
+  height: 6%;
   text-align: left;
   padding-left: 10px;
   padding-right: 10px;
@@ -148,23 +148,22 @@ body {
 .form-popup {
   display: none;
   position: absolute;
-  top: 67%;
+  top: 65%;
   left: 22%;
   width: 60%;
-  height: 10%;
+  height: 6%;
 }
 
 .form-container {
   width: 100%;
   height: 100%;
   padding-top: 20px;
-  padding-bottom: 30px;
 }
 
 .form-container input[type="text"],
 .form-container input[type="password"] {
   margin-top: 10px;
-  padding: 30px 10px;
+  padding: 25px 10px;
   border: none;
   background: #f1f1f1;
   width: 100%;
@@ -177,8 +176,8 @@ body {
   height: 400px;
   width: 650px;
   position: absolute;
-  left: 7%;
-  top: 11%;
+  left: 10%;
+  top: 15%;
 }
 
 #message-1 {
@@ -198,7 +197,7 @@ body {
   color: #59566b;
   padding: 50px;
   position: absolute;
-  top: 74%;
+  top: 71%;
   line-height: 2vh;
 }
 
@@ -209,6 +208,6 @@ body {
   padding: 5px;
   position: absolute;
   left: 56%;
-  top: 93%;
+  top: 94%;
   line-height: 3vh;
 }
